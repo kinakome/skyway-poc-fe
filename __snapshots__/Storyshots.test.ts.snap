@@ -1,0 +1,165 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots atoms/Button Midium 1`] = `
+<button
+  className="Button__Body-a68dj3-0 cXWbqK"
+  data-disable={false}
+  data-size="medium"
+>
+  ボタン
+</button>
+`;
+
+exports[`Storyshots atoms/Button Small 1`] = `
+<button
+  className="Button__Body-a68dj3-0 cXWbqK"
+  data-disable={false}
+  data-size="small"
+>
+  ボタン
+</button>
+`;
+
+exports[`Storyshots atoms/FormInput Default 1`] = `
+<input
+  className="FormInput__Input-qex6n8-0 bXwZuQ"
+  placeholder="初期表示"
+  type="text"
+  value=""
+/>
+`;
+
+exports[`Storyshots molecules/Bookmark Default 1`] = `
+<div
+  className="Bookmark__Wrapper-sc-1ijgn17-0 ghIBva"
+>
+  <div
+    className="Bookmark__Icon-sc-1ijgn17-1"
+    onClick={[Function]}
+  >
+    <svg
+      aria-hidden={true}
+      className="MuiSvgIcon-root"
+      focusable="false"
+      viewBox="0 0 24 24"
+    >
+      <path
+        d="M17 3H7c-1.1 0-1.99.9-1.99 2L5 21l7-3 7 3V5c0-1.1-.9-2-2-2zm0 15l-5-2.18L7 18V5h10v13z"
+      />
+    </svg>
+  </div>
+  <div
+    className="Bookmark__Count-sc-1ijgn17-2 gbTLEC"
+  >
+    100
+  </div>
+</div>
+`;
+
+exports[`Storyshots molecules/Form Default 1`] = `
+<div
+  className="Form__Wrapper-qpnowt-0 ekcJKU"
+>
+  <input
+    className="FormInput__Input-qex6n8-0 bXwZuQ Form__StyledFormInput-qpnowt-1 hatNoJ"
+    placeholder="初期表示"
+    type="text"
+    value=""
+  />
+  <button
+    className="Button__Body-a68dj3-0 cXWbqK"
+    data-disable={true}
+    data-size="medium"
+  >
+    ボタン
+  </button>
+</div>
+`;
+
+exports[`Storyshots organisms/Counter Default 1`] = `
+Array [
+  <button
+    className="Button__Body-a68dj3-0 cXWbqK"
+    data-disable={false}
+    data-size="small"
+  >
+    minus
+  </button>,
+  <div
+    className="Counter__Body-sc-1s9o6ft-0 isrlJw"
+  >
+    0
+  </div>,
+  <button
+    className="Button__Body-a68dj3-0 cXWbqK"
+    data-disable={false}
+    data-size="small"
+  >
+    plus
+  </button>,
+]
+`;
+
+exports[`Storyshots organisms/TodoList Default 1`] = `
+<div
+  className="TodoList__Wrapper-sc-1iybolb-0 bTIqzQ"
+>
+  <div
+    className="Form__Wrapper-qpnowt-0 ekcJKU"
+  >
+    <input
+      className="FormInput__Input-qex6n8-0 bXwZuQ Form__StyledFormInput-qpnowt-1 hatNoJ"
+      onChange={[Function]}
+      placeholder="タスクを入力してください"
+      type="text"
+      value=""
+    />
+    <button
+      className="Button__Body-a68dj3-0 cXWbqK"
+      data-disable={true}
+      data-size="medium"
+      onClick={[Function]}
+    >
+      追加
+    </button>
+  </div>
+  <ul
+    className="TodoList__Todos-sc-1iybolb-1 dfFgnR"
+  >
+    <li
+      className="TodoList__Todo-sc-1iybolb-2 cnOojM"
+    >
+      <div
+        className="TodoList__Text-sc-1iybolb-3 gsBMJA"
+      >
+        サンプルタスク1
+      </div>
+      <button
+        className="Button__Body-a68dj3-0 cXWbqK TodoList__ButtonStyled-sc-1iybolb-4 dyiPmW"
+        data-disable={false}
+        data-size="small"
+        onClick={[Function]}
+      >
+        削除
+      </button>
+    </li>
+    <li
+      className="TodoList__Todo-sc-1iybolb-2 cnOojM"
+    >
+      <div
+        className="TodoList__Text-sc-1iybolb-3 gsBMJA"
+      >
+        サンプルタスク2
+      </div>
+      <button
+        className="Button__Body-a68dj3-0 cXWbqK TodoList__ButtonStyled-sc-1iybolb-4 dyiPmW"
+        data-disable={false}
+        data-size="small"
+        onClick={[Function]}
+      >
+        削除
+      </button>
+    </li>
+  </ul>
+</div>
+`;
